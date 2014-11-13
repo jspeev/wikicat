@@ -1,0 +1,13 @@
+'use strict';
+
+//Setting up route
+angular.module('wikicatmod').config(['$stateProvider',
+	function($stateProvider) {
+		// Wikicatmod state routing
+		$stateProvider.
+		state('wikicatmain', {
+			url: '/wikicatmain',
+			templateUrl: 'modules/wikicatmod/views/wikicatmain.client.view.html'
+		});
+	}
+]);

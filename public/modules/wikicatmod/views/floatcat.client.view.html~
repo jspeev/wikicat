@@ -1,0 +1,1 @@
+<div id="float{{id}}" style="background-image:url({{imgURL}}); float:left; background-repeat:no-repeat; height:100px; width:100px; background-size:100%;" ng-click="updateCatSummary()"></div>

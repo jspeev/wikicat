@@ -1,0 +1,14 @@
+'use strict';
+
+angular.module('wikicatmod').directive('floatingcat', [
+	function() {
+		return {
+			scope:{name:'@name',imgURL:'@imgURL'},
+			template: '<div><img src="{{imgURL}}"></img>{{name}}</div>',
+			restrict: 'E',
+			controller: function ($scope) {
+				
+			}
+		};
+	}
+]);

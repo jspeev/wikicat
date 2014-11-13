@@ -1,0 +1,9 @@
+<section data-ng-controller="WikicatmainController">
+	
+	<div>{{Summary.stMainText}}</div>
+	
+	<div ng-repeat="cat in floatingCats">
+		<floatcat id="floatcat{{cat.num}}" name="{{cat.name}}" imgURL="{{cat.imgURL}}" summary="{{cat.summary}}"></floatcat>
+	</div>
+	
+</section>

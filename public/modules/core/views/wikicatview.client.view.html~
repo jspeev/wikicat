@@ -1,0 +1,3 @@
+<section data-ng-controller="WikicatctrlController">
+	This is the Wikicat view
+</section>
